@@ -4,5 +4,5 @@ import "github.com/gofiber/fiber/v2"
 
 func main() {
 	web := fiber.New()
-	web.Listen(":3000")
+	web.Static("/", "public/index.html")
 }
