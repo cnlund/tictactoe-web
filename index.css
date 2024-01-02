@@ -1,7 +1,18 @@
-*{
-    align-items: center;
+body{
+    background-color: rgb(10, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.menu{
+.titulo{
     display: flex;
     justify-content: center;
+}
+.ftitulo{
+    font-family: 'Coming Soon', cursive;
+    font-size: 8vh;
+}
+.fcreditos{
+    font-family: 'Coming Soon', cursive;
+    font-size: 3vh;
 }
