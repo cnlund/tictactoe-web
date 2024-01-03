@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(10, 238, 238);
+    background-color: burlywood;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,6 +11,102 @@ body{
 .ftitulo{
     font-family: 'Coming Soon', cursive;
     font-size: 8vh;
+}
+.juego{
+    justify-content: center;
+    background-image: url("tictactoe.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.tablero{
+    display: flex;
+    justify-content: center;
+    margin-top: 22vh;
+    margin-bottom: 12vh;
+}
+.boton1{
+    border-bottom: solid black;
+    border-right: solid black;
+    border-width: 0.5vw;
+}
+.uno{
+    height: 10vh;
+    width: 10vw;
+    background: none;
+}
+.boton2{
+    border-bottom: solid black;
+    border-right: solid black;
+    border-width: 0.5vw;
+}
+.dos{
+    height: 10vh;
+    width: 10vw;
+    background: none;
+}
+.boton3{
+    border-bottom: solid black;
+    border-width: 0.5vw;
+}
+.tres{
+    height: 10vh;
+    width: 10vw;
+    background: none;
+}
+.boton4{
+    border-bottom: solid black;
+    border-right: solid black;
+    border-width: 0.5vw;
+}
+.cuatro{
+    height: 10vh;
+    width: 10vw;
+    background: none;
+}
+.boton5{
+    border-bottom: solid black;
+    border-right: solid black;
+    border-width: 0.5vw;
+}
+.cinco{
+    height: 10vh;
+    width: 10vw;
+    background: none;
+}
+.boton6{
+    border-bottom: solid black;
+    border-width: 0.5vw;
+}
+.seis{
+    height: 10vh;
+    width: 10vw;
+    background: none;
+}
+.boton7{
+    border-right: solid black;
+    border-width: 0.5vw;
+}
+.siete{
+    height: 10vh;
+    width: 10vw;
+    background: none;
+}
+.boton8{
+    border-right: solid black;
+    border-width: 0.5vw;
+}
+.ocho{
+    height: 10vh;
+    width: 10vw;
+    background: none;
+}
+.boton9{
+    border-width: 0.5vw;
+}
+.nueve{
+    height: 10vh;
+    width: 10vw;
+    background: none;
 }
 .fcreditos{
     font-family: 'Coming Soon', cursive;
