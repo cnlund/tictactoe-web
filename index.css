@@ -14,7 +14,7 @@ body{
 }
 .juego{
     justify-content: center;
-    background-image: url("tictactoe.png");
+    background-image: url("./tictactoe.png");
     background-repeat: no-repeat;
     background-position-x: center;
 }
